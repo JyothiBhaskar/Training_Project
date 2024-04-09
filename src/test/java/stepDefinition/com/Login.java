@@ -26,7 +26,7 @@ public class Login {
 
 	@When("I enter username {string} and password {string}")
 	public void i_enter_username_and_password(String string, String string2) {
-	    
+	    System.out.println("Enter password");
 	page.LoginCred(string, string2);
 		
 		
